@@ -14,7 +14,8 @@ import java.util.ArrayList;
 public class SimpleHash
 {
     
-    
+    //Generates and returns hash table based upon given ArrayList
+    //Using modulus based hash key algorithm.
     public static void generateHashTable(ArrayList<Object[]> values)
     {
         int arraySize = getNextPrime(values.size() * 2);
